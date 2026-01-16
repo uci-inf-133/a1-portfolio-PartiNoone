@@ -59,28 +59,22 @@ footer {
   background-color: #373F51;
   margin: 0;
 }
-h2#footertitle{
-  color: #D8DBE2;
-  margin-top: 10px;
+footer p {
+  margin-top:0px;
   margin-bottom: 0px;
-  font-size: 80%;
-  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
 }
-h2 div {
-  margin: 0px 30px;
-}
-div a{
+footer p a{
   color: #D8DBE2;
   text-decoration: none;
-  font-size: 50%;
   font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+  margin-left: 30px;
 }
 
 /* RESPONSIVENESS */
 @media screen and (min-width: 570px) {
   /* override whatever's going on with the body that makes it smaller */
   .container{
-    max-width: 100%;
+    min-width: 100%;
   }
 }
 
