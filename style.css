@@ -1,0 +1,26 @@
+/* Colors:
+Alabaster Grey: D8DBE2
+Pacific Blue: 58A4B0
+Charcoal Blue: 373F51
+Carbon Black: 1B1B1E 
+*/
+body {
+  background-color: #D8DBE2;
+}
+p {
+  color: #1B1B1E; 
+}
+/* let's make the navbar charcoal blue as base, pacific blue when hover*/
+nav {
+  list-style-type: none;
+  background-color: #373F51;
+}
+li a{
+  display: block;
+  color: #1B1B1E;
+  text-decoration: none;
+}
+
+nav li{
+  float: left;
+}
