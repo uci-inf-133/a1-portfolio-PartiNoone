@@ -14,14 +14,14 @@ p {
   color: #1B1B1E; 
 }
 /* let's make the navbar charcoal blue as base, pacific blue when hover*/
-nav {
+header#menu {
   list-style-type: none;
   background-color: #373F51;
 }
-nav li{
+header#menu li{
   float: left;
 }
-nav li a{
+header#menu li a{
   display: block;
   color: #1B1B1E;
   text-decoration: none;
