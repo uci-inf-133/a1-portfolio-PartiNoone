@@ -11,19 +11,23 @@ html{
 h1{
   color: #373F51;
   padding: 50px 50px;
+  width: 100%;
 }
 body.container {
   background-color: #D8DBE2;
   margin: 0px 0px 0px 0px;
+  width: 100%;
 }
 p {
   color: #1B1B1E; 
+  margin: 30px;
 }
-/* let's make the navbar charcoal blue as base, pacific blue when hover*/
+/* HEADER */
 header#menu {
   list-style-type: none;
-  background-color: #373F51;
   margin:0;
+  width:100%;
+  background-color: #373F51;
 }
 header#menu li{
   float: left;
@@ -38,6 +42,7 @@ header#menu li a{
 /* FOOTER */
 footer {
   background-color: #373F51;
+  width: 100%;
   margin: 0;
 }
 h2#footertitle{
