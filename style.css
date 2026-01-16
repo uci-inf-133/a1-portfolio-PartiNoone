@@ -33,6 +33,7 @@ header#menu {
   background-color: #373F51;
   height: 40px;
   overflow: hidden;
+  margin-bottom: 40px;
 }
 header#menu li{
   float: left;
@@ -44,10 +45,12 @@ header#menu li a{
   padding: 8px;
   text-align: center;
 }
+
 header#menu li a:hover{
   background-color: #58A4B0;
   color: #373F51;
-}
+} 
+
 /* FOOTER */
 footer {
   background-color: #373F51;
@@ -66,4 +69,32 @@ div a{
   color: #D8DBE2; 
   text-decoration: none;
   font-size: 50%;
+}
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 460px) {
+  header#menu li a {
+    font-size: 80%;
+  }
+  header#menu {
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  header#menu li a {
+    font-size: 70%;
+  }
+  header#menu {
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  header#menu li a {
+    font-size: 60%;
+  }
+  header#menu {
+    height: 30px;
+  }
 }
