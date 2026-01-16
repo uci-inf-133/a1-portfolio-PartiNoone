@@ -4,6 +4,9 @@ Pacific Blue: 58A4B0
 Charcoal Blue: 373F51
 Carbon Black: 1B1B1E 
 */
+h1{
+  color: #373F51;
+}
 body {
   background-color: #D8DBE2;
 }
