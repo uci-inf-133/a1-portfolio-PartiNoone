@@ -10,7 +10,7 @@ html{
 }
 h1{
   color: #373F51;
-  padding: 50px 200px;
+  padding: 50px 50px;
 }
 body.container {
   background-color: #D8DBE2;
@@ -42,10 +42,10 @@ footer {
 }
 h2#footertitle{
   color: #D8DBE2;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 h2 div {
-  margin: 10px 30px;
+  margin: 0px 30px;
 }
 div a{
   color: #D8DBE2; 
