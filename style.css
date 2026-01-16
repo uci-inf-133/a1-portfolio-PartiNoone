@@ -8,7 +8,7 @@ h1{
   color: #373F51;
   padding: 50px 200px;
 }
-body {
+body.container {
   background-color: #D8DBE2;
   margin: 0px 0px 0px 0px;
 }
