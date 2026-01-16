@@ -7,9 +7,11 @@ Carbon Black: 1B1B1E
 h1{
   color: #373F51;
   padding: 30px;
+  padding-top: 50px;
 }
 body {
   background-color: #D8DBE2;
+  margin: 0;
 }
 p {
   color: #1B1B1E; 
@@ -35,9 +37,14 @@ footer {
   background-color: #373F51;
   margin: 0;
 }
-footer div {
+h2#footertitle{
   color: #D8DBE2;
+  margin: 30px;
+}
+h2 div {
+  margin: 30px;
 }
 div a{
+  color: #D8DBE2; 
   text-decoration: none;
 }
