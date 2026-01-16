@@ -42,12 +42,12 @@ header#menu li a{
 /* FOOTER */
 footer {
   background-color: #373F51;
-  width: 100%;
   margin: 0;
 }
 h2#footertitle{
   color: #D8DBE2;
   margin-top: 10px;
+  font-size: 50%;
 }
 h2 div {
   margin: 0px 30px;
