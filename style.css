@@ -29,8 +29,8 @@ p {
 header#menu {
   list-style-type: none;
   margin:0;
-  width:100%;
   background-color: #373F51;
+  height: 40px;
 }
 header#menu li{
   float: left;
