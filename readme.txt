@@ -53,6 +53,7 @@ For HTML and CSS:
     position (https://www.w3schools.com/css/css_positioning.asp)
     image cards (https://www.w3schools.com/howto/howto_css_cards.asp)
     subheadings (https://css-tricks.com/html-for-subheadings-and-headings/)
+    fade overlay: (https://www.w3schools.com/howto/howto_css_image_overlay.asp)
 For Bootstrap:
     images (https://www.w3schools.com/bootstrap/bootstrap_ref_css_images.asp)
 Help on my footer:
