@@ -41,19 +41,22 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 4. How long, in hours, did it take you to complete this assignment?
-Maybe 4 hours on Thursday, 2 on Friday morning
-friday night started at 9 maybe? to 12.
-
+3-ish hours on Thursday, 2 on Friday morning, 8 hours Friday night (I stayed up to 4 am)
+Sat: 12
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-I visited W3Schools pages on HTML, CSS, and Bootstrap. I also had some trouble with my footer, so I looked at a Reddit thread for a solution.
+I visited W3Schools pages on HTML, CSS, and Bootstrap. I also visited a lot of other websites for more specific things, like help with my footer.
 For HTML and CSS:
     navigation bars (https://www.w3schools.com/css/css_navbar_horizontal.asp)
     centering images (https://www.w3schools.com/css/css3_image_center.asp) and (https://www.w3schools.com/howto/howto_css_image_center.asp)
     position (https://www.w3schools.com/css/css_positioning.asp)
     image cards (https://www.w3schools.com/howto/howto_css_cards.asp)
     subheadings (https://css-tricks.com/html-for-subheadings-and-headings/)
-    fade overlay: (https://www.w3schools.com/howto/howto_css_image_overlay.asp)
+    fade overlay (https://www.w3schools.com/howto/howto_css_image_overlay.asp)
+    box shadow (https://www.w3schools.com/cssref/css3_pr_box-shadow.php)
+    how to center a column (https://www.tutorialrepublic.com/faq/how-to-center-a-column-in-bootstrap.php)
+    transform property (https://www.quackit.com/css/css3/properties/css_transform.cfm)
+    accessible navbar (https://dev.to/ilizette/how-to-build-an-accessible-navigation-menu-1omk)
 For Bootstrap:
     images (https://www.w3schools.com/bootstrap/bootstrap_ref_css_images.asp)
 Help on my footer:
