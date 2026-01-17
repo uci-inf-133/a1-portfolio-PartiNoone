@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="en">
 
-<!--
+
+<!-- 
 WRITTEN BY: Tracy Vo
 EMAIL: tracymv@uci.edu
--->
+ -->
 
-<head>
-  <meta charset="utf-8">
+
+<meta charset="utf-8">
   <meta name="author" content="Tracy Vo">
   <meta name="description" content="description of your page">
    <!-- you would link to an external stylesheet here! -->
@@ -15,23 +16,31 @@ EMAIL: tracymv@uci.edu
    <!-- you would also link to Bootstrap here! -->
   <meta name="viewport" content="width=devicewidth,initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
   <title>Tracy's Portfolio</title>
 </head>
 
-<header class="container" role="navigator" id="menu">
-  <li><a href="index.html">Home</a></li>
-  <li><a href="digitalart.html">Digital Art</a></li>
-  <li><a href="traditionalart.html">Traditional Art</a></li>
-  <li><a href="pokemonstickers.html">Fan Sticker Designs</a></li>
-</header>
 <body class="container">
-  <h1 class="col-12">Tracy Vo</h1>
-  <p>hey i'm tracy and i draw sometimes :3</p>
-  <p>
-    <a href="http://validator.w3.org/check?uri=referer">
-       W3C validator
-    </a>
-  </p>
+  <div class="not-footer">
+
+    <header class="container" role="navigator" id="menu">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="digitalart.html">Digital Art</a></li>
+      <li><a href="traditionalart.html">Traditional Art</a></li>
+      <li><a href="pokemonstickers.html">Pokemon Fanworks</a></li>
+    </header>
+    
+    <div class="content">
+    <img src="persona-spooky.PNG" alt="Digital painting of the artist's persona" class="rounded-circle img-fluid" id="pfp">
+    <h1 class="col-12">Tracy Vo</h1>
+    <p class="flavor">I draw sometimes :3</p>
+    <p>
+      <a href="http://validator.w3.org/check?uri=referer">
+        W3C validator
+      </a>
+    </p>
+    </div>
+  </div>
 
   <footer class="row">
 	<p class="col-1"><a href="https://www.instagram.com/particularly_no_one/">Instagram</a></p>

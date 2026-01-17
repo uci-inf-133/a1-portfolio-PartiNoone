@@ -22,32 +22,48 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
-
+    Images with descriptive alt attributes
+    Headings and paragraphs
+    Multiple pages, with navigation between them
+    A footer semantic HTML tag
 
 (b) CSS features
-
-
+    Padding and margins
+    Colors
+    Bootstrap image shapes
 
 (c) Advanced features
-
-
-
+    Navigation bar
+    Nested selectors
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
 
 
 
 4. How long, in hours, did it take you to complete this assignment?
-
+Maybe 4 hours on Thursday, 2 on Friday morning
+friday night started at 9 maybe? to 12.
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
+I visited W3Schools pages on HTML, CSS, and Bootstrap. I also had some trouble with my footer, so I looked at a Reddit thread for a solution.
+For HTML and CSS:
+    navigation bars (https://www.w3schools.com/css/css_navbar_horizontal.asp)
+    centering images (https://www.w3schools.com/css/css3_image_center.asp) and (https://www.w3schools.com/howto/howto_css_image_center.asp)
+    position (https://www.w3schools.com/css/css_positioning.asp)
+    image cards (https://www.w3schools.com/howto/howto_css_cards.asp)
+    subheadings (https://css-tricks.com/html-for-subheadings-and-headings/)
+For Bootstrap:
+    images (https://www.w3schools.com/bootstrap/bootstrap_ref_css_images.asp)
+Help on my footer:
+    Reddit thread (https://www.reddit.com/r/Frontend/comments/k1zj0z/how_to_make_footer_stay_at_bottom_of_page_without/)
+    Bootstrap on borders (https://getbootstrap.com/docs/5.3/utilities/borders/)
+    5 ways to do footers (https://css-tricks.com/couple-takes-sticky-footer/) 
 
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+None
 
 
 7. Is there anything special we need to know in order to run your code?
