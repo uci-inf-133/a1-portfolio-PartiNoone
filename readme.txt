@@ -42,7 +42,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 4. How long, in hours, did it take you to complete this assignment?
 3-ish hours on Thursday, 2 on Friday morning, 8 hours Friday night (I stayed up to 4 am)
-Sat: 12
+Sat: 12-2:30
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 I visited W3Schools pages on HTML, CSS, and Bootstrap. I also visited a lot of other websites for more specific things, like help with my footer.
