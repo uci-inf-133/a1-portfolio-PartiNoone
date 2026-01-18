@@ -52,44 +52,6 @@ ul#menu li a:hover, ul#menu li a.active{
   color: #1B1B1E;
 }
 
-/* FOOTER */
-body div.not-footer{
-  min-height: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  min-width: 100%;
-}
-.not-footer.long { 
-  /* the long class for not-footer just means there's enough content to push footer down, so the negative margin is not needed */
-  margin-bottom: 60px;
-}
-
-footer.row{
-    margin-top:-40px;
-}
-
-footer ul {
-  list-style-type: none;
-  margin:0;
-  margin-bottom: 0;
-  background-color: #373F51;
-  height: 40px;
-  width: 100%;
-  overflow: hidden;
-  padding: 0;
-}
-footer ul li{
-  float: left;
-}
-footer ul li a{
-  display: block;
-  color: #D8DBE2;
-  text-decoration: none;
-  padding: 8px;
-  text-align: center;
-  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
-}
-
 /* IMAGE CONTENT */
 img#pfp{
   display: block;
@@ -151,6 +113,48 @@ p.flavor-center{
   text-align: center;
 }
 
+/* FOOTER */
+body div.not-footer{
+  min-height: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  min-width: 100%;
+}
+.not-footer.long { 
+  /* the long class for not-footer just means there's enough content to push footer down, so the negative margin is not needed */
+  margin-bottom: 60px;
+}
+
+footer.row{
+  margin-top:-40px;
+  margin-left:0;
+  margin-right:0;
+  padding: 0;
+}
+
+footer ul {
+  list-style-type: none;
+  margin:0;
+  margin-bottom: 0;
+  background-color: #373F51;
+  height: 40px;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+footer ul.container{ padding: 0; }
+footer ul li{
+  float: left;
+}
+footer ul li a{
+  display: block;
+  color: #D8DBE2;
+  text-decoration: none;
+  padding: 8px;
+  text-align: center;
+  font-family: "Trebuchet MS", Verdana, Tahoma, sans-serif;
+}
+
 /* RESPONSIVENESS */
 @media screen and (min-width: 570px) {
   /* override whatever's going on with the body that makes it smaller */
@@ -161,75 +165,98 @@ p.flavor-center{
 
 /* SMALLER-SMALLEST SCREENS */ 
 @media screen and (max-width: 460px) {
-  ul#menu li a {
+  ul#menu li a, footer ul li a {
     font-size: 80%;
   }
-  ul#menu {
+  ul#menu, footer ul {
     height: 32px;
+  }
+  div.not-footer.long{margin-bottom: 32px;}
+  footer.row{
+    margin-top: -32px;
   }
 }
 
 @media screen and (max-width: 370px) {
-  ul#menu li a {
+  ul#menu li a, footer ul li a {
     font-size: 70%;
   }
-  ul#menu {
+  ul#menu, footer ul {
     height: 30px;
+  }
+  div.not-footer.long{margin-bottom: 30px;}
+  footer.row{
+    margin-top: -30px;
   }
 }
 
 @media screen and (max-width: 335px) {
-  ul#menu li a {
+  ul#menu li a, footer ul li a {
     font-size: 60%;
   }
-  ul#menu {
+  ul#menu, footer ul {
     height: 28px;
+  }
+  div.not-footer.long{margin-bottom: 28px;}
+  footer.row{
+    margin-top: -28px;
   }
 }
 
 /* BIGGER-BIGGEST SCREENS */
 @media screen and (min-width: 400px) {
-  ul#menu li a {
+  ul#menu li a, footer ul li a {
     font-size: 90%;
   }
-  ul#menu {
+  ul#menu, ul{
     height: 38px;
   }
   h1.col-12{
     font-size: 200%;
   }
-  
+  div.not-footer.long{margin-bottom: 38px;}
+  footer.row{
+    margin-top: -38px;
+  }
 }
 @media screen and (min-width: 500px) {
-  ul#menu li a {
+  ul#menu li a, footer ul li a {
     font-size: 100%;
     padding: 10px;
   }
-  ul#menu {
+  ul#menu, footer ul {
     height: 40px;
   }
   h1.col-12{
     font-size: 210%;
   }
+  div.not-footer.long{margin-bottom: 40px;}
+  footer.row{
+    margin-top: -40px;
+  }
 }
 @media screen and (min-width: 600px) {
-  ul#menu li a {
+  ul#menu li a, footer ul li a {
     font-size: 110%;
     padding: 14px;
   }
-  ul#menu {
+  ul#menu, footer ul {
     height: 54px;
   }
   h1.col-12{
     font-size: 220%;
   }
+  div.not-footer.long{margin-bottom: 54px;}
+  footer.row{
+    margin-top: -54px;
+  }
 }
 @media screen and (min-width: 768px) {
-  ul#menu li a {
+  ul#menu li a, footer ul li a {
     font-size: 130%;
     padding: 18px;
   }
-  ul#menu {
+  ul#menu, footer ul {
     height: 67px;
   }
   h1.col-12{
@@ -238,17 +265,16 @@ p.flavor-center{
   .not-footer p {
     font-size: 130%;
   }
-  footer.row {
-    margin-top: -44px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  div.not-footer.long{margin-bottom: 67px;}
+  footer.row{
+    margin-top: -67px;
   }
   img#pfp{
     margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 992px) {
-  ul#menu li a {
+  ul#menu li a, footer ul li a{
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -263,6 +289,12 @@ p.flavor-center{
   }
   img#pfp{
     margin-bottom: 20px;
+  }
+  .fullscreen-landscape{
+    max-width: 80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
   }
 }
  /* wide screens */
