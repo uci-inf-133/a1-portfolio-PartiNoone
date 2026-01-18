@@ -1,9 +1,20 @@
-/* Colors:
+/* Main Colors:
 Alabaster Grey: D8DBE2
 Pacific Blue: 58A4B0, or 6DB0BA for lighter version for more readability
 Charcoal Blue: 373F51
 Carbon Black: 1B1B1E
 */
+/* skip to content */
+#skip{
+  font-size:small;
+  margin-bottom: -20px;
+  text-align: right;
+}
+#skip a{
+  color: #373F51;
+  font-size:small;
+}
+/* content */
 html{
   width: 100%;
   height: 100%;

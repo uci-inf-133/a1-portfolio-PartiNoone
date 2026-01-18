@@ -1,32 +1,36 @@
-.row.justify-content-center{
+/* Row containing 2 images */
+.row.spacing{
   margin-left: 0;
   margin-right: 0;
-}
-.row.spacing{
   padding-top: 20px;
   padding-bottom: 20px;
 }
+/* Both the rows and the higher level elements in the rows */
 div.spacing{
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 20px;
 }
+/* Just the elements inside the rows */
 .row.spacing div.spacing{
   /* Make it so two items in a row take up the whole row*/
   width:50%;
   display: flex;
   align-items: center;
 }
+/* The full block that will fade in and out */
 .container-fadeout{
   position:relative;
   margin:auto;
   padding:0;
   width: 100%;
 }
+/* img that will fade in and out */
 .fadeout-img{
   display: block;
   width: 100%;
 }
+/* content that will fade in over the fadeout img */
 .overlay{
   opacity:0;
   transition: 0.3s;
@@ -41,13 +45,14 @@ div.spacing{
 .overlay:hover {
   opacity: 1;
 }
+/* text that will fade in */
 .overlay p {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+/* individual background colors */
 .overlay#kelp{
   background-color: #58aa95;
 }
@@ -69,7 +74,7 @@ div.spacing{
 .overlay#ruler p, .overlay#arttrade p {
   color:#ffffff;
 }
-/* TEXT */
+/* TEXT RESPONSIVENESS */
 @media screen and (max-width: 575px) {
   div.overlay p{
     font-size: 70%;
