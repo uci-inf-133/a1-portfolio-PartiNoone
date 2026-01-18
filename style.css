@@ -279,7 +279,7 @@ footer ul li a{
     padding-left: 30px;
   }
   ul#menu {
-    margin-bottom: 50;
+    margin-bottom: 50px;
   }
   h1.col-12{
     font-size: 400%;
@@ -308,7 +308,7 @@ footer ul li a{
       margin-bottom: 67px;
     }
  }
-@media screen and (min-width: 800px) and (max-height: 826){
+@media screen and (min-width: 800px) and (max-height: 826px){
     body div.not-footer{
       margin-bottom: 67px;
     }

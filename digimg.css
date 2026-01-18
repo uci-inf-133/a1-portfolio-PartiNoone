@@ -61,20 +61,25 @@ div.spacing{
   background-color: #ff8c49;
 }
 .overlay#ruler{
-  background-color: #34323d;
-  p{color:white;}
+  background-color: #181742;
 }
 .overlay#arttrade{
   background-color: #0401dd;
-  p{color:white;}
 }
-
+.overlay#ruler p, .overlay#arttrade p {
+  color:#ffffff;
+}
 /* TEXT */
 @media screen and (max-width: 575px) {
   div.overlay p{
     font-size: 70%;
   }
-  div.overlay#ruler p, .overlay#quentin p {font-size: 60%;}
+  div.overlay#ruler p, .overlay#quentin p {
+    top: 50%;
+    left: 25%;
+    transform: translate(-16%, -50%);
+  }
+
   .row.spacing{
     padding-top: 0;
     padding-bottom: 0;
