@@ -41,34 +41,35 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 4. How long, in hours, did it take you to complete this assignment?
-3-ish hours on Thursday, 2 on Friday morning, 8 hours Friday night (I stayed up to 4 am)
-Sat: 12-2:30, 3:30-
+    18.5 hours so far
+        3-ish hours on Thursday, 2 on Friday morning, 8 hours Friday night (I stayed up to 4 am)
+        Sat: 12-2:30, 3:00pm-6pm
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-I visited W3Schools pages on HTML, CSS, and Bootstrap. I also visited a lot of other websites for more specific things, like help with my footer.
-For HTML and CSS:
-    navigation bars (https://www.w3schools.com/css/css_navbar_horizontal.asp)
-    centering images (https://www.w3schools.com/css/css3_image_center.asp) and (https://www.w3schools.com/howto/howto_css_image_center.asp)
-    position (https://www.w3schools.com/css/css_positioning.asp)
-    image cards (https://www.w3schools.com/howto/howto_css_cards.asp)
-    subheadings (https://css-tricks.com/html-for-subheadings-and-headings/)
-    fade overlay (https://www.w3schools.com/howto/howto_css_image_overlay.asp)
-    box shadow (https://www.w3schools.com/cssref/css3_pr_box-shadow.php)
-    how to center a column (https://www.tutorialrepublic.com/faq/how-to-center-a-column-in-bootstrap.php)
-    transform property (https://www.quackit.com/css/css3/properties/css_transform.cfm)
-    accessible navbar (https://dev.to/ilizette/how-to-build-an-accessible-navigation-menu-1omk)
-For Bootstrap:
-    images (https://www.w3schools.com/bootstrap/bootstrap_ref_css_images.asp)
-Help on my footer:
-    Reddit thread (https://www.reddit.com/r/Frontend/comments/k1zj0z/how_to_make_footer_stay_at_bottom_of_page_without/)
-    Bootstrap on borders (https://getbootstrap.com/docs/5.3/utilities/borders/)
-    5 ways to do footers (https://css-tricks.com/couple-takes-sticky-footer/) 
-
-
+    I visited W3Schools pages on HTML, CSS, anSd Bootstrap. I also visited a lot of other websites for more specific things, like help with my footer.
+    For HTML and CSS:
+        navigation bars (https://www.w3schools.com/css/css_navbar_horizontal.asp)
+        centering images (https://www.w3schools.com/css/css3_image_center.asp) and (https://www.w3schools.com/howto/howto_css_image_center.asp)
+        position (https://www.w3schools.com/css/css_positioning.asp)
+        image cards (https://www.w3schools.com/howto/howto_css_cards.asp)
+        subheadings (https://css-tricks.com/html-for-subheadings-and-headings/)
+        fade overlay (https://www.w3schools.com/howto/howto_css_image_overlay.asp)
+        box shadow (https://www.w3schools.com/cssref/css3_pr_box-shadow.php)
+        how to center a column (https://www.tutorialrepublic.com/faq/how-to-center-a-column-in-bootstrap.php)
+        transform property (https://www.quackit.com/css/css3/properties/css_transform.cfm)
+        accessible navbar (https://dev.to/ilizette/how-to-build-an-accessible-navigation-menu-1omk)
+        flip an image (https://www.w3schools.com/howto/howto_css_flip_image.asp)
+        background images (https://www.browserstack.com/guide/background-image-syntax-in-html)
+    For Bootstrap:
+        images (https://www.w3schools.com/bootstrap/bootstrap_ref_css_images.asp)
+    Help on my footer:
+        Reddit thread (https://www.reddit.com/r/Frontend/comments/k1zj0z/how_to_make_footer_stay_at_bottom_of_page_without/)
+        Bootstrap on borders (https://getbootstrap.com/docs/5.3/utilities/borders/)
+        5 ways to do footers (https://css-tricks.com/couple-takes-sticky-footer/) 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-None
+    None
 
 
 7. Is there anything special we need to know in order to run your code?
-
+    No

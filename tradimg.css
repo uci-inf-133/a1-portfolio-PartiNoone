@@ -1,0 +1,28 @@
+/* the row */
+div.row.justify-content-center.spacing {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+/* a column in the row */
+div.row div.spacing {
+    display: flex;
+    align-items: center;
+}
+/* the img */
+div.spacing img{
+    position:static;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 50%;
+    max-height: 110%;
+}
+/* the text */
+div.row div.spacing p{
+    padding: 20px;
+}
+#fullscreen {
+    padding-left:50px;
+    padding-right: 50px;
+}
