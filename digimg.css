@@ -17,7 +17,7 @@ div.spacing{
 }
 .container-fadeout{
   position:relative;
-  margin:0;
+  margin:auto;
   padding:0;
   width: 100%;
 }
@@ -54,4 +54,46 @@ div.spacing{
 }
 .overlay#fish{
   background-color: #5de4b8;
+}
+.overlay#quentin{
+  background-color: #ff8c49;
+}
+.overlay#ruler{
+  background-color: #34323d;
+  p{color:white;}
+}
+.overlay#arttrade{
+  background-color: #0401dd;
+  p{color:white;}
+}
+
+/* TEXT */
+@media screen and (max-width: 575px) {
+  div.overlay p{
+    font-size: 70%;
+  }
+  div.overlay#ruler p, .overlay#quentin p {font-size: 60%;}
+  .row.spacing{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .row .spacing{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  div.overlay p{
+    font-size: 80%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  div.overlay p{
+    font-size: 110%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  div.overlay p{
+    font-size: 130%;
+  }
 }

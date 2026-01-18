@@ -10,14 +10,14 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+10/10
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 1/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
@@ -42,7 +42,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 4. How long, in hours, did it take you to complete this assignment?
 3-ish hours on Thursday, 2 on Friday morning, 8 hours Friday night (I stayed up to 4 am)
-Sat: 12-2:30
+Sat: 12-2:30, 3:30-
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 I visited W3Schools pages on HTML, CSS, and Bootstrap. I also visited a lot of other websites for more specific things, like help with my footer.
