@@ -37,7 +37,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
     Nested selectors
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-    I'm passing the W3C validators and AChecker's known/likely problems, but there are many (100+) potential problems listed on AChecker.
+    I'm passing the W3C validators and AChecker's known/likely problems, but there are many (100+) potential problems listed on AChecker, so I'll group them by WCAG success criteria sections and check numbers.
     1.1 Text alternatives
         Check 178, 8: I tried to be as descriptive as possible in my alt text, and I left out information I thought was not important.
         Check 16: None of my images are decorative, and all of them have alt text.
@@ -47,24 +47,25 @@ Talking to classmates about class material, assignment requirements, etc. is a g
         Check 248: All headers are made in an <ul> element, and the <ul> has the role "menubar" and id "menu".
         Check 250, 262: Generally the page text doesn't reference other items. As for the text accompanying each image, I tried to make it so the page layout made it clear which image each textbox referred to. Many of the text segments are also preceded by a one-word 'title' of some kind that matches the image they describe.
     1.4 Distinguihsable
-        Check 14: The point of my portfolio kind of relies on visuals, since it's about art, so some info will inevitably be lost if sight is not used. I do mention the general vibe of each piece in the alt text or description though, and vibe is one of the biggest things you get from colors.
-        Check 251: The text in the art isn't that important in the pieces I chose. If it were, I'd include it in the alt text.
+        Check 14: The point of my portfolio kind of relies on visuals, since it's about art, so some info will inevitably be lost if sight is not used. I do mention a lot in the alt-text.
+        Check 251: The text in the art isn't that important in the pieces I chose, except the stickers, which all have their text echoed in the alt-text.
         Check 11: I did not include text that I felt was unimportant in the alt text. The purpose of the images is to show my art, not teach algebra.
     2.4 Navigable
         Check 28: I have a skip to content link in each html file.
         Check 54, 19: All the link text and titles are meaningful/accurate.
         Check 262: See 1.3, Check 250.
         Check 184: All pages are accessible from the header menu, so I think not having a site map in this case is fine.
-        Check 42: My headers are used as section titles.
+        Check 42, 43: My headers are used as section titles.
     3.1 Readable
         Check 110: They're compound words, in English. It's readable.
         Check 276: My headers and footers are identical from page to page.
         Check 131: There are no quotes from other sources.
 
 4. How long, in hours, did it take you to complete this assignment?
-    18.5 hours so far
-        3-ish hours on Thursday, 2 on Friday morning, 8 hours Friday night (I stayed up to 4 am)
-        Sat: 12-2:30, 3:00pm-6pm, 9-12, 1-3:30
+    21.5 hours
+        Thurs: 3-ish hours
+        Fri: 2 hours in the morning, 8 hours at night (I stayed up to 4 am)
+        Sat: 12-2:30, 3:00pm-6pm, 9am-12pm, 1am-4am
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
     I visited W3Schools pages on HTML, CSS, anSd Bootstrap. I also visited a lot of other websites for more specific things, like help with my footer.
